@@ -58,13 +58,16 @@ class _AppBodyState extends State<AppBody> {
                   });
                 } catch (e) {
                   setState(() {
-                    stvar = 'Error';
+                    stvar = '';
                   });
                 }
               },
               child: Text(
                 "=",
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 30,
+                ),
               ),
             ),
           ]),
@@ -79,10 +82,13 @@ class _AppBodyState extends State<AppBody> {
                       stvar += '7';
                     });
                   },
+                  shape: CircleBorder(),
+                  color: Colors.white60,
+                  padding: EdgeInsets.all(25),
                   child: Text(
                     "7",
                     style:
-                        TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
+                        TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0),
                   ),
                 ),
               ),
@@ -93,10 +99,13 @@ class _AppBodyState extends State<AppBody> {
                       stvar += '8';
                     });
                   },
+                  shape: CircleBorder(),
+                  color: Colors.white60,
+                  padding: EdgeInsets.all(25),
                   child: Text(
                     "8",
                     style:
-                        TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
+                        TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0),
                   ),
                 ),
               ),
@@ -107,10 +116,13 @@ class _AppBodyState extends State<AppBody> {
                       stvar += '9';
                     });
                   },
+                  shape: CircleBorder(),
+                  color: Colors.white60,
+                  padding: EdgeInsets.all(25),
                   child: Text(
                     "9",
                     style:
-                        TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
+                        TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0),
                   ),
                 ),
               ),
@@ -121,12 +133,15 @@ class _AppBodyState extends State<AppBody> {
                       stvar = '';
                     });
                   },
+                  shape: CircleBorder(),
+                  padding: EdgeInsets.all(25),
+                  color: Colors.red,
                   child: Text(
                     "AC",
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
-                        fontSize: 20.0,
-                        color: Colors.red),
+                        fontSize: 30.0,
+                        color: Colors.white),
                   ),
                 ),
               ),
@@ -143,10 +158,13 @@ class _AppBodyState extends State<AppBody> {
                       stvar += '4';
                     });
                   },
+                  shape: CircleBorder(),
+                  color: Colors.white60,
+                  padding: EdgeInsets.all(25),
                   child: Text(
                     "4",
                     style:
-                        TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
+                        TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0),
                   ),
                 ),
               ),
@@ -157,10 +175,13 @@ class _AppBodyState extends State<AppBody> {
                       stvar += '5';
                     });
                   },
+                  shape: CircleBorder(),
+                  color: Colors.white60,
+                  padding: EdgeInsets.all(25),
                   child: Text(
                     "5",
                     style:
-                        TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
+                        TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0),
                   ),
                 ),
               ),
@@ -171,10 +192,13 @@ class _AppBodyState extends State<AppBody> {
                       stvar += '6';
                     });
                   },
+                  shape: CircleBorder(),
+                  color: Colors.white60,
+                  padding: EdgeInsets.all(25),
                   child: Text(
                     "6",
                     style:
-                        TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
+                        TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0),
                   ),
                 ),
               ),
@@ -185,10 +209,15 @@ class _AppBodyState extends State<AppBody> {
                       stvar += '/';
                     });
                   },
+                  shape: CircleBorder(),
+                  color: Colors.grey,
+                  padding: EdgeInsets.all(25),
                   child: Text(
                     "/",
-                    style:
-                        TextStyle(fontWeight: FontWeight.bold, fontSize: 25.0),
+                    style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 30.0,
+                        color: Colors.white),
                   ),
                 ),
               ),
@@ -205,10 +234,13 @@ class _AppBodyState extends State<AppBody> {
                       stvar += '1';
                     });
                   },
+                  shape: CircleBorder(),
+                  color: Colors.white60,
+                  padding: EdgeInsets.all(25),
                   child: Text(
                     "1",
                     style:
-                        TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
+                        TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0),
                   ),
                 ),
               ),
@@ -219,10 +251,13 @@ class _AppBodyState extends State<AppBody> {
                       stvar += '2';
                     });
                   },
+                  shape: CircleBorder(),
+                  color: Colors.white60,
+                  padding: EdgeInsets.all(25),
                   child: Text(
                     "2",
                     style:
-                        TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
+                        TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0),
                   ),
                 ),
               ),
@@ -233,10 +268,13 @@ class _AppBodyState extends State<AppBody> {
                       stvar += '3';
                     });
                   },
+                  shape: CircleBorder(),
+                  color: Colors.white60,
+                  padding: EdgeInsets.all(25),
                   child: Text(
                     "3",
                     style:
-                        TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
+                        TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0),
                   ),
                 ),
               ),
@@ -247,10 +285,15 @@ class _AppBodyState extends State<AppBody> {
                       stvar += '*';
                     });
                   },
+                  shape: CircleBorder(),
+                  color: Colors.grey,
+                  padding: EdgeInsets.all(25),
                   child: Text(
                     "X",
-                    style:
-                        TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
+                    style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 30.0,
+                        color: Colors.white),
                   ),
                 ),
               ),
@@ -267,10 +310,13 @@ class _AppBodyState extends State<AppBody> {
                       stvar += '0';
                     });
                   },
+                  shape: CircleBorder(),
+                  color: Colors.white60,
+                  padding: EdgeInsets.all(25),
                   child: Text(
                     "0",
                     style:
-                        TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
+                        TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0),
                   ),
                 ),
               ),
@@ -281,10 +327,13 @@ class _AppBodyState extends State<AppBody> {
                       stvar += '.';
                     });
                   },
+                  shape: CircleBorder(),
+                  color: Colors.white60,
+                  padding: EdgeInsets.all(25),
                   child: Text(
                     ".",
                     style:
-                        TextStyle(fontWeight: FontWeight.bold, fontSize: 25.0),
+                        TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0),
                   ),
                 ),
               ),
@@ -295,10 +344,15 @@ class _AppBodyState extends State<AppBody> {
                       stvar += '-';
                     });
                   },
+                  shape: CircleBorder(),
+                  color: Colors.grey,
+                  padding: EdgeInsets.all(25),
                   child: Text(
                     "-",
-                    style:
-                        TextStyle(fontWeight: FontWeight.bold, fontSize: 40.0),
+                    style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 30.0,
+                        color: Colors.white),
                   ),
                 ),
               ),
@@ -309,10 +363,15 @@ class _AppBodyState extends State<AppBody> {
                       stvar += '+';
                     });
                   },
+                  shape: CircleBorder(),
+                  color: Colors.grey,
+                  padding: EdgeInsets.all(25),
                   child: Text(
                     "+",
-                    style:
-                        TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0),
+                    style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 30.0,
+                        color: Colors.white),
                   ),
                 ),
               ),
