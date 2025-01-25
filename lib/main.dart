@@ -123,8 +123,10 @@ class _AppBodyState extends State<AppBody> {
                   },
                   child: Text(
                     "AC",
-                    style:
-                        TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
+                    style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 20.0,
+                        color: Colors.red),
                   ),
                 ),
               ),
