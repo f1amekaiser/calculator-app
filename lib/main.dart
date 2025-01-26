@@ -88,7 +88,7 @@ class _AppBodyState extends State<AppBody> {
                   child: Text(
                     "7",
                     style:
-                        TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0),
+                        TextStyle(fontWeight: FontWeight.bold, fontSize: 25.0),
                   ),
                 ),
               ),
@@ -105,7 +105,7 @@ class _AppBodyState extends State<AppBody> {
                   child: Text(
                     "8",
                     style:
-                        TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0),
+                        TextStyle(fontWeight: FontWeight.bold, fontSize: 25.0),
                   ),
                 ),
               ),
@@ -122,7 +122,7 @@ class _AppBodyState extends State<AppBody> {
                   child: Text(
                     "9",
                     style:
-                        TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0),
+                        TextStyle(fontWeight: FontWeight.bold, fontSize: 25.0),
                   ),
                 ),
               ),
@@ -140,7 +140,7 @@ class _AppBodyState extends State<AppBody> {
                     "AC",
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
-                        fontSize: 30.0,
+                        fontSize: 25.0,
                         color: Colors.white),
                   ),
                 ),
@@ -164,7 +164,7 @@ class _AppBodyState extends State<AppBody> {
                   child: Text(
                     "4",
                     style:
-                        TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0),
+                        TextStyle(fontWeight: FontWeight.bold, fontSize: 25.0),
                   ),
                 ),
               ),
@@ -181,7 +181,7 @@ class _AppBodyState extends State<AppBody> {
                   child: Text(
                     "5",
                     style:
-                        TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0),
+                        TextStyle(fontWeight: FontWeight.bold, fontSize: 25.0),
                   ),
                 ),
               ),
@@ -198,7 +198,7 @@ class _AppBodyState extends State<AppBody> {
                   child: Text(
                     "6",
                     style:
-                        TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0),
+                        TextStyle(fontWeight: FontWeight.bold, fontSize: 25.0),
                   ),
                 ),
               ),
@@ -216,7 +216,7 @@ class _AppBodyState extends State<AppBody> {
                     "/",
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
-                        fontSize: 30.0,
+                        fontSize: 25.0,
                         color: Colors.white),
                   ),
                 ),
@@ -240,7 +240,7 @@ class _AppBodyState extends State<AppBody> {
                   child: Text(
                     "1",
                     style:
-                        TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0),
+                        TextStyle(fontWeight: FontWeight.bold, fontSize: 25.0),
                   ),
                 ),
               ),
@@ -257,7 +257,7 @@ class _AppBodyState extends State<AppBody> {
                   child: Text(
                     "2",
                     style:
-                        TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0),
+                        TextStyle(fontWeight: FontWeight.bold, fontSize: 25.0),
                   ),
                 ),
               ),
@@ -274,7 +274,7 @@ class _AppBodyState extends State<AppBody> {
                   child: Text(
                     "3",
                     style:
-                        TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0),
+                        TextStyle(fontWeight: FontWeight.bold, fontSize: 25.0),
                   ),
                 ),
               ),
@@ -292,7 +292,7 @@ class _AppBodyState extends State<AppBody> {
                     "X",
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
-                        fontSize: 30.0,
+                        fontSize: 25.0,
                         color: Colors.white),
                   ),
                 ),
@@ -316,7 +316,7 @@ class _AppBodyState extends State<AppBody> {
                   child: Text(
                     "0",
                     style:
-                        TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0),
+                        TextStyle(fontWeight: FontWeight.bold, fontSize: 25.0),
                   ),
                 ),
               ),
@@ -333,7 +333,7 @@ class _AppBodyState extends State<AppBody> {
                   child: Text(
                     ".",
                     style:
-                        TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0),
+                        TextStyle(fontWeight: FontWeight.bold, fontSize: 25.0),
                   ),
                 ),
               ),
@@ -351,7 +351,7 @@ class _AppBodyState extends State<AppBody> {
                     "-",
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
-                        fontSize: 30.0,
+                        fontSize: 25.0,
                         color: Colors.white),
                   ),
                 ),
@@ -370,7 +370,7 @@ class _AppBodyState extends State<AppBody> {
                     "+",
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
-                        fontSize: 30.0,
+                        fontSize: 25.0,
                         color: Colors.white),
                   ),
                 ),
